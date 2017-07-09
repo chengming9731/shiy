@@ -1,0 +1,99 @@
+.user{width:100%;background: #f4f3f9;font-size: 14px}
+.head{
+    width:100%;
+    height: 146px;
+    background:linear-gradient(146deg,#ff464e 34%,#fc7400);
+    color:#fff;
+    text-align: center;
+    position: relative;
+}
+.order{
+    position: relative;
+}
+.user-top{
+    padding-top: 12px;
+    margin-bottom: 40px;}
+.head a{
+    color:#fff;
+    font-size: 18px;
+}
+.user-top .icon-jiantou-copy{
+   position: absolute;
+    left: 20px;
+    font-size: 18px;
+}
+.user-login a:first-child:after{
+    content: "";
+    width:1px;
+    height: 20px;
+    background: #fff;
+    margin-left: 46px;
+    margin-right: 46px;
+    display: inline-block;
+}
+.ordertop{
+    height: 48px;
+    padding-left:18px;
+    padding-right: 18px;
+    font-size: 14px;
+    border-bottom: 1px solid #f8f8f8;
+    line-height: 48px;
+    background: #fff;
+}
+.ordertop a{width: 100%;display: inline-block;position: relative;display: flex;justify-content: space-between}
+.ordertop span:nth-of-type(2){
+    margin-right: 20px;
+    color:#aeaeae;
+}
+.icon-202-copy{
+    position: absolute;
+    right: 0;
+    color:#aeaeae;
+}
+.userItem{
+    width:100%;
+    height: 80px;
+    background: #fff;
+}
+.userItem ul{
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.userItem li{
+    width:25%;
+    text-align: center;
+    font-size: 12px;
+}
+.userItem i{font-size: 24px; }
+.userItem p{
+    margin-top: 10px;}
+.userItm2,.about{
+    background: #fff;
+    margin-top: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.userItm2 li,.about li{width:100%;height: 48px;line-height: 48px;position: relative}
+.userItm2 li:first-child{
+    border-bottom: 1px solid #f8f8f8;}
+
+.footer{
+    width:100%;
+    background: #fff;
+    margin-top: 10px;
+}
+.footer p:first-child{
+    display: flex;
+    justify-content: space-around;
+    line-height: 50px;
+    color: #aeaeae;
+    font-size: 10px;
+}
+.footer p:nth-of-type(2){
+    text-align: center;
+    font-size: 9px;
+    color:#a4a4a4;
+}

@@ -1,0 +1,183 @@
+.shopcar{
+    width:100%;
+    height: 100%;
+    background: #f4f3f8;
+}
+.shopcar .head{
+    width:100%;
+    height: 44px;
+    background: #fff;
+    position: relative;
+    text-align: center;
+    border-bottom: 1px solid #a4a4a4;
+
+}
+.shopcar .t-user{
+    position: absolute;
+    right:14px;
+    top:12px;
+    font-size: 14px;
+    display: block;
+}
+.shopcar .t-index{
+    font-size: 18px;
+    line-height: 44px;
+}
+.shopajax{
+    width:100%;
+    text-align: center;
+    height: 100%;
+    overflow: hidden;
+}
+/*.shopajax{padding: 24px}*/
+.shopajax img{
+    width:140px
+}
+.shopajax p{
+    font-size: 16px;
+    margin-top: 15px;
+}
+.shopajax a{
+    display: inline-block;
+    width:138px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #ff464e;
+    color:#ff464e;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.shopcar .shopfull{
+    background: #ebebeb;
+    width:100%;
+    height: 100%;
+    text-align: start;
+    overflow: auto;
+}
+
+.shopcar .shopfull img{
+    width:16px;
+    height: 16px;
+    margin-left: 22px;
+    margin-right: 12px;
+    /*vertical-align: top;*/
+}
+.shoptop{
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    border-bottom: 1px solid #dedede;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.shopfull input{
+    width:20px;
+    height: 20px;
+}
+.shoppro{
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    overflow: hidden;
+    height: 140px;
+    position: relative;
+    background: #fff;
+}
+.shoppro input{
+    float: left;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+.shoppro .shoppro-right{
+    display: table-cell;
+    /*position: relative;*/
+}
+.shoppro .shoppro-btn img{
+    width:70px;
+    height: 70px;
+    margin-right: 10px;
+    margin-left: 0;
+    float: left;
+    margin-top: 10px;
+}
+.shoppro-btn-right{
+    display: table-cell;
+}
+.shoppro-btn p{
+    margin-top: 10px;}
+.shoppro-span span:first-child{
+    padding: 3px;
+    display: inline-block;
+    width:80%;
+    height: 20px;
+    overflow: hidden;
+}
+.clothname span:first-child{
+    width:100%;
+    height: 25px;
+    display: inline-block;
+    overflow: hidden;
+}
+.shopspan{
+    padding-left: 30px;
+}
+.shopspan1{
+    padding-left: 60px;
+    text-decoration: line-through;
+}
+.span1,.span2{
+    display: inline-block;
+    background: #dedede;
+    color:#000;
+    width:30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.clothsize{
+    color:#cbcbcb;
+}
+.remove{
+    position: absolute;
+    right:0;
+    bottom:0;
+}
+
+.allprice{
+    position: absolute;
+    bottom: 50px;
+    width:100%;
+    background: #fff;
+    padding-left: 20px;
+    /*padding-top: 20px;*/
+    box-sizing: border-box;
+    height: 46px;
+}
+.allprice .choose{
+    float: left;
+    padding-top: 10px;
+}
+.allprice .choose input{
+    float: left;
+    border-radius: 50%;
+}
+.allprice .account{
+    float: right;
+}
+.account a:nth-of-type(2){
+    display: inline-block;
+    width:85px;
+    height:52px;
+    background: #fb4247;
+    color:#fff;
+    margin-top: 0;
+}
+.account .bookmark{
+    display: inline-block;
+    width:85px;
+    height: 52px;
+    margin-top: 0;
+    color:#fff;
+    background: #fd631c;
+}

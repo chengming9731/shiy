@@ -1,0 +1,70 @@
+<div id="eath-wrap" ui-view>
+    <div id="eath-content">
+        <div id="eath-head"><p>全球购</p><i class="iconfont icon-01"></i></div>
+        <div class="eath-banner">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"  ng-repeat="images in banner.list">
+                        <img src="{{images.image}}" class="banner-img">
+                    </div>
+                </div>
+                <!-- 如果需要分页器 -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <div id="data1">
+            <a href="#" ng-repeat="li in data1.list">
+                <ul ui-sref=".hot" ng-click="page($index)">
+                    <li><img src={{li.image}}></li>
+                    <li>{{li.title}}</li>
+                </ul>
+            </a>
+        </div>
+        <div id="time">
+            <p>限时特惠距活动结束仅剩</p>
+            <p>{{date}}</p>
+        </div>
+        <div id="dita3">
+            <div>
+                <ul ng-repeat="img in data3.list">
+                    <li><img src={{img.image}}></li>
+                    <li><span>￥{{img.discountPrice}}</span><span>{{img.price}}</span></li>
+                    <li><button class="button">立即抢购</button></li>
+                </ul>
+                <ul >
+                    <li><img src="img/xiazai.png"></li>
+                </ul>
+            </div>
+        </div>
+        <div id="data2">
+            <p>本周流行</p>
+            <div>
+              <span ng-repeat="span in data2.list">{{span.words}}</span>
+            </div>
+
+        </div>
+        <div id="data4" ng-controller="globalshopCtrl">
+            <p><span ng-click="change(0)" ng-class="{true:'one',false:'towe'}[isborder[0]]">流行</span>
+                <span  ng-click="change(1)" ng-class="{true:'one',false:'towe'}[isborder[1]]">新款</span>
+                <span  ng-click="change(2)" ng-class="{true:'one',false:'towe'}[isborder[2]]">精选</span>
+            </p>
+            <div>
+                <ul ng-repeat="li in data4 | orderBy:paix">
+
+                    <li><img src={{li.showLarge.img}}></li>
+                    <li>{{li.title}}</li>
+                    <li><span>{{li.price}}</span><p><img class="xing" src="img/收藏.png" ><span>{{li.cfav}}</span></p></li>
+                    <li class="productData">
+                        <p>
+                            <span ng-click="reduceToCar(li,$index)">-</span>
+                            <span>{{li.num}}</span>
+                            <span ng-click="addToCar(li,$index)">+</span>
+                        </p>
+                        <p class="car0"><i>{{num}}</i></p>
+                    </li>
+                    <li style="display: none">{{li.sale}}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

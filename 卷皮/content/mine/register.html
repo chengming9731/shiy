@@ -1,0 +1,27 @@
+<!--注册 start-->
+<div class="register">
+    <!--注册 头部-->
+    <div class="head">
+        <span ui-sref="mine"><i class="iconfont icon-prev"></i></span>
+        <span>注册</span>
+    </div>
+    <!--头部 end-->
+    <!--中间注册,start-->
+    <div class="mid">
+        <p>请确保你的手机畅通,用于接收验证码短信</p>
+        <form name="regist">
+            <input type="text" placeholder="{{telp}}" ng-required="true" ng-pattern="/^1[3|4|5|7|8][0-9]{9}$/" ng-model="data.tel" class="midInput" id="tel" name="tel" minlength="11" maxlength="11"/>
+
+        <input type="text" placeholder="请输入验证码" ng-focus="focus()"/>
+            <span class="{{parac1}}" ng-click="par()" >{{paracont}}</span>
+
+        </form>
+        <div class="register-p" ng-show="regist.tel.$dirty&&regist.tel.$invalid">请正确填写手机号码</div>
+        <p ng-show="showAllErr" class="register-p1">请填写完整</p>
+
+    </div>
+    <!--中间注册,end-->
+    <!--按钮 start-->
+    <input type="button" value="下一步" class="{{button}}" ng-click="ck()"/>
+
+</div>

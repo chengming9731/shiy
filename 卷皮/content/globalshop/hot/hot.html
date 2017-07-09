@@ -1,0 +1,23 @@
+<div id="data4" ng-controller="globalshopCtrl">
+    <p><span ng-click="change(0)" ng-class="{true:'one',false:'towe'}[isborder[0]]">流行</span>
+        <span  ng-click="change(1)" ng-class="{true:'one',false:'towe'}[isborder[1]]">新款</span>
+        <span  ng-click="change(2)" ng-class="{true:'one',false:'towe'}[isborder[2]]">精选</span>
+    </p>
+    <div>
+        <ul ng-repeat="li in data4 | orderBy:paix">
+
+            <li><img src={{li.showLarge.img}}></li>
+            <li>{{li.title}}</li>
+            <li><span>{{li.price}}</span><p><img class="xing" src="img/收藏.png" ><span>{{li.cfav}}</span></p></li>
+            <li class="productData">
+                <p>
+                    <span ng-click="reduceToCar(li,$index)">-</span>
+                    <span>{{li.num}}</span>
+                    <span ng-click="addToCar(li,$index)">+</span>
+                </p>
+                <p class="car0"><i>{{num}}</i></p>
+            </li>
+            <li style="display: none">{{li.sale}}</li>
+        </ul>
+    </div>
+</div>

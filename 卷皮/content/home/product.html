@@ -1,0 +1,51 @@
+
+<div class="main">
+   <!--店名-->
+   <div class="fixtop">
+       <span class="t-find" ui-sref="home.frockDetail"><i class="iconfont icon-prev"></i></span>
+       <span class="t-index">PONA欧美女神专场专场</span>
+       <span class="icon"><i class="iconfont icon-01"></i></span>
+   </div>
+   <!--店logo-->
+   <div class="brand">
+       <div class="banner-box">
+           <div class="logo_show"><img src="img/bcbad.png"></div>
+           <div class="brand_det">
+               <div class="brand_name">PONA欧美女神专场专场</div>
+               <span class="brand_del">共200+件商品</span>
+           </div>
+           <div class="brand_collect">
+               <span><img src="img/aixin.png"></span>
+               <p> 收藏店铺</p>
+           </div>
+       </div>
+   </div>
+    <!--限时抢购-->
+    <div id="time">
+        <div>距离结束还剩</div>
+        <div>{{date}}</div>
+    </div>
+   <!--商品排序-->
+   <div class="brand_sort">
+       <ul class="active">
+           <li class="sales">综合</li>
+           <li class="sales">价格</li>
+           <li class="sales">销量</li>
+           <li class="sales">仅看有货</li>
+       </ul>
+   </div>
+   <!--商品介绍-->
+   <div class='goods'>
+       <ul class="goods-ulst">
+           <li ng-repeat="item16 in swiperData16"><a ui-sref="details">
+               <div class="placeholder"><img src="{{item16.pgpicurl}}"/></div>
+               <div class="list-price">
+                   <span class="price-new">{{item16.tuan_price | currency:'￥' }}</span>
+                   <span class="pintuan">拼</span>
+                   <span class="del">{{item16.oprice | currency:'￥' }}</span>
+               </div>
+               <h3 class="short">{{item16.title}}</h3>
+           </a></li>
+       </ul>
+   </div>
+</div>

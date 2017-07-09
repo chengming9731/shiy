@@ -1,0 +1,24 @@
+<div class="module">
+    <ul class="me0"><li class="type1 " ng-repeat="item13 in swiperData13"><img src="{{item13.pic}}"></li></ul>
+    <ul class="me0"><li class="type1 " ng-repeat="item14 in swiperData14"><img src="{{item14.pic}}"></li></ul>
+    <div class="me1" ng-repeat="item15 in swiperData15"><img src="{{item15.pic}}"></div>
+</div>
+<!--模块广告-->
+<div class="goods">
+    <ul class="goods-ulst">
+        <li ng-repeat="item16 in swiperData16"><a ui-sref="product">
+            <div class="placeholder"><img src="{{item16.pic_url}}"/></div>
+            <div class="shop_logo"><img src="{{item16.shop_logo}}"/></div>
+            <div class="list-price">
+                <span class="coupon-info">{{item16.coupon.rules[0].aeBankInfo}}</span>
+                <span class="only-time">{{item16.residue}}</span>
+            </div>
+            <h3 class="short">{{item16.title}}</h3>
+        </a></li>
+    </ul>
+</div>
+
+
+
+
+

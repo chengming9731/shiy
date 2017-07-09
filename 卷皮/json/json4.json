@@ -1,0 +1,399 @@
+{
+  "module_ads": {
+    "block_id": "249",
+    "multi_block": [
+      {
+        "show_type": 2,
+        "block_type": 14,
+        "split_line": "0",
+        "margin_enabled": 0,
+        "data": [
+          {
+            "child": [
+              {
+                "pic": "//s2.juancdn.com/bao/160905/9/0/57cd1455151ad1f6428b45bf_80x80.png?iopcmd=convert&Q=88&dst=png",
+                "url": "http://m.juanpi.com/qiang",
+                "words": "最后疯抢",
+                "bd_id": "2351",
+                "x_record": "1_1",
+                "activityname": "click_cube_block",
+                "server_jsonstr": "{\"pit_info\":\"ad_id::249::block_id::1113::img_id::2351::1_1\",\"cid\":-1,\"_t\":1498700826,\"_z\":\"5\",\"ab_info\":null}"
+              },
+              {
+                "pic": "//s2.juancdn.com/bao/160905/0/a/57cd1466151ad1cf368b4621_80x80.png?iopcmd=convert&Q=88&dst=png",
+                "url": "http://m.juanpi.com/jiu",
+                "words": "9.9包邮",
+                "bd_id": "2352",
+                "x_record": "1_2",
+                "activityname": "click_cube_block",
+                "server_jsonstr": "{\"pit_info\":\"ad_id::249::block_id::1113::img_id::2352::1_2\",\"cid\":-1,\"_t\":1498700826,\"_z\":\"5\",\"ab_info\":null}"
+              },
+              {
+                "pic": "//s2.juancdn.com/bao/160905/4/8/57cd14a2151ad1e1348b4633_80x80.png?iopcmd=convert&Q=88&dst=png",
+                "url": "https://tuan.juanpi.com/pintuan/?mjuanpi_wx=1",
+                "words": "拼团",
+                "bd_id": "2353",
+                "x_record": "1_3",
+                "activityname": "click_cube_block",
+                "server_jsonstr": "{\"pit_info\":\"ad_id::249::block_id::1113::img_id::2353::1_3\",\"cid\":-1,\"_t\":1498700826,\"_z\":\"5\",\"ab_info\":null}"
+              },
+              {
+                "pic": "//s2.juancdn.com/bao/160905/7/4/57cd14a7151ad1ab408b45ab_80x80.png?iopcmd=convert&Q=88&dst=png",
+                "url": "http://m.juanpi.com/yugao",
+                "words": "即将上线",
+                "bd_id": "2354",
+                "x_record": "1_4",
+                "activityname": "click_cube_block",
+                "server_jsonstr": "{\"pit_info\":\"ad_id::249::block_id::1113::img_id::2354::1_4\",\"cid\":-1,\"_t\":1498700826,\"_z\":\"5\",\"ab_info\":null}"
+              }
+            ],
+            "countnum": 4,
+            "shownum": 4
+          }
+        ]
+      },
+      {
+        "show_type": 1,
+        "block_type": 4,
+        "split_line": "1",
+        "margin_enabled": 10,
+        "data": [
+          {
+            "width": 1,
+            "triangle": 0,
+            "height": 0.608,
+            "child": [
+              {
+                "pic": "//s2.juancdn.com/bao/170628/1/a/595341095a3f3228f7409816_375x456.png?iopcmd=convert&Q=88&dst=png",
+                "url": "https://m.juanpi.com/cate/490",
+                "layout": "col",
+                "width": 0.5,
+                "height": 1,
+                "countdown": {
+                  "enable_time": "0",
+                  "start_time": "",
+                  "end_time": "",
+                  "start_text": "",
+                  "end_text": ""
+                },
+                "bd_id": "7326",
+                "x_record": "2_1",
+                "activityname": "click_cube_block",
+                "server_jsonstr": "{\"pit_info\":\"ad_id::249::block_id::2808::img_id::7326::2_1\",\"cid\":-1,\"_t\":1498700826,\"_z\":\"5\",\"ab_info\":null}"
+              },
+              {
+                "pic": "//s2.juancdn.com/bao/170616/e/3/5943546fad0a49dc0c8b45d1_375x228.png?iopcmd=convert&Q=88&dst=png",
+                "url": "https://m.juanpi.com/cate/318?select=1_9&mjuanpi_wx=1",
+                "layout": "row",
+                "width": 0.5,
+                "height": 0.5,
+                "countdown": {
+                  "enable_time": "0",
+                  "start_time": "",
+                  "end_time": "",
+                  "start_text": "",
+                  "end_text": ""
+                },
+                "bd_id": "7327",
+                "similar": 2,
+                "x_record": "2_2",
+                "activityname": "click_cube_block",
+                "server_jsonstr": "{\"pit_info\":\"ad_id::249::block_id::2808::img_id::7327::2_2\",\"cid\":-1,\"_t\":1498700826,\"_z\":\"5\",\"ab_info\":null}"
+              },
+              {
+                "pic": "//s2.juancdn.com/bao/170620/6/3/5948ced8ad0a49c7128b4575_375x228.png?iopcmd=convert&Q=88&dst=png",
+                "url": "https://tuan.juanpi.com/topic/meirichoujiang?pt_src=ggmk_2&mjuanpi_wx=1",
+                "layout": "row",
+                "width": 0.5,
+                "height": 0.5,
+                "countdown": {
+                  "enable_time": "0",
+                  "start_time": "",
+                  "end_time": "",
+                  "start_text": "",
+                  "end_text": ""
+                },
+                "bd_id": "7328",
+                "similar": 2,
+                "x_record": "2_3",
+                "activityname": "click_cube_block",
+                "server_jsonstr": "{\"pit_info\":\"ad_id::249::block_id::2808::img_id::7328::2_3\",\"cid\":-1,\"_t\":1498700826,\"_z\":\"5\",\"ab_info\":null}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "show_type": 1,
+        "block_type": 2,
+        "split_line": "0",
+        "margin_enabled": 0,
+        "data": [
+          {
+            "width": 1,
+            "triangle": 0,
+            "height": 0.304,
+            "child": [
+              {
+                "pic": "//s2.juancdn.com/bao/170626/e/c/595066835a3f322675800000_750x228.png?iopcmd=convert&Q=88&dst=png",
+                "url": "https://mact.juanpi.com/xiebao628?mjuanpi_wx=1",
+                "layout": "col",
+                "width": 1,
+                "height": 1,
+                "countdown": {
+                  "enable_time": "0",
+                  "start_time": "",
+                  "end_time": "",
+                  "start_text": "",
+                  "end_text": ""
+                },
+                "bd_id": "12265",
+                "x_record": "3_1",
+                "activityname": "click_cube_block",
+                "server_jsonstr": "{\"pit_info\":\"ad_id::249::block_id::4156::img_id::12265::3_1\",\"cid\":-1,\"_t\":1498700826,\"_z\":\"5\",\"ab_info\":null}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "show_type": 1,
+        "block_type": 1,
+        "split_line": "0",
+        "margin_enabled": 0,
+        "data": [
+          {
+            "width": 1,
+            "triangle": 0,
+            "height": 0.1333,
+            "child": [
+              {
+                "pic": "//s2.juancdn.com/bao/170626/e/8/595066be5a3f3226c1563cdc_750x100.png?iopcmd=convert&Q=88&dst=png",
+                "url": "",
+                "layout": "col",
+                "width": 1,
+                "height": 1,
+                "countdown": {
+                  "enable_time": "0",
+                  "start_time": "",
+                  "end_time": "",
+                  "start_text": "",
+                  "end_text": ""
+                },
+                "bd_id": "12266",
+                "x_record": "4_1",
+                "activityname": "click_cube_block",
+                "server_jsonstr": "{\"pit_info\":\"ad_id::249::block_id::4157::img_id::12266::4_1\",\"cid\":-1,\"_t\":1498700826,\"_z\":\"5\",\"ab_info\":null}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "show_type": 1,
+        "block_type": 3,
+        "split_line": "0",
+        "margin_enabled": 0,
+        "data": [
+          {
+            "width": 1,
+            "triangle": 0,
+            "height": 0.3173,
+            "child": [
+              {
+                "pic": "//s2.juancdn.com/bao/170627/4/2/5951d381a43d1f45e54241da_375x238.png?iopcmd=convert&Q=88&dst=png",
+                "url": "https://mact.juanpi.com/sub_mansan628?mjuanpi_wx=1",
+                "layout": "col",
+                "width": 0.5,
+                "height": 1,
+                "countdown": {
+                  "enable_time": "0",
+                  "start_time": "",
+                  "end_time": "",
+                  "start_text": "",
+                  "end_text": ""
+                },
+                "bd_id": "12267",
+                "x_record": "5_1",
+                "activityname": "click_cube_block",
+                "server_jsonstr": "{\"pit_info\":\"ad_id::249::block_id::4158::img_id::12267::5_1\",\"cid\":-1,\"_t\":1498700826,\"_z\":\"5\",\"ab_info\":null}"
+              },
+              {
+                "pic": "//s2.juancdn.com/bao/170627/d/d/5951d3845a3f32a35b753df2_375x238.png?iopcmd=convert&Q=88&dst=png",
+                "url": "https://mact.juanpi.com/sub_liushi628?mjuanpi_wx=1",
+                "layout": "col",
+                "width": 0.5,
+                "height": 1,
+                "countdown": {
+                  "enable_time": "0",
+                  "start_time": "",
+                  "end_time": "",
+                  "start_text": "",
+                  "end_text": ""
+                },
+                "bd_id": "12268",
+                "x_record": "5_2",
+                "activityname": "click_cube_block",
+                "server_jsonstr": "{\"pit_info\":\"ad_id::249::block_id::4158::img_id::12268::5_2\",\"cid\":-1,\"_t\":1498700826,\"_z\":\"5\",\"ab_info\":null}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "show_type": 1,
+        "block_type": 3,
+        "split_line": "0",
+        "margin_enabled": 0,
+        "data": [
+          {
+            "width": 1,
+            "triangle": 0,
+            "height": 0.3307,
+            "child": [
+              {
+                "pic": "//s2.juancdn.com/bao/170627/6/b/5951d3785a3f3263e57361ec_375x248.png?iopcmd=convert&Q=88&dst=png",
+                "url": "https://mact.juanpi.com/sub_bashijiu628?mjuanpi_wx=1",
+                "layout": "col",
+                "width": 0.5,
+                "height": 1,
+                "countdown": {
+                  "enable_time": "0",
+                  "start_time": "",
+                  "end_time": "",
+                  "start_text": "",
+                  "end_text": ""
+                },
+                "bd_id": "12269",
+                "x_record": "6_1",
+                "activityname": "click_cube_block",
+                "server_jsonstr": "{\"pit_info\":\"ad_id::249::block_id::4159::img_id::12269::6_1\",\"cid\":-1,\"_t\":1498700826,\"_z\":\"5\",\"ab_info\":null}"
+              },
+              {
+                "pic": "//s2.juancdn.com/bao/170627/6/4/5951d37b5a3f3263ef2cea00_375x248.png?iopcmd=convert&Q=88&dst=png",
+                "url": "https://mact.juanpi.com/sub_dapai628?mjuanpi_wx=1",
+                "layout": "col",
+                "width": 0.5,
+                "height": 1,
+                "countdown": {
+                  "enable_time": "0",
+                  "start_time": "",
+                  "end_time": "",
+                  "start_text": "",
+                  "end_text": ""
+                },
+                "bd_id": "12270",
+                "x_record": "6_2",
+                "activityname": "click_cube_block",
+                "server_jsonstr": "{\"pit_info\":\"ad_id::249::block_id::4159::img_id::12270::6_2\",\"cid\":-1,\"_t\":1498700826,\"_z\":\"5\",\"ab_info\":null}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "show_type": 1,
+        "block_type": 1,
+        "split_line": "0",
+        "margin_enabled": 10,
+        "data": [
+          {
+            "width": 1,
+            "triangle": 0,
+            "height": 0.128,
+            "child": [
+              {
+                "pic": "//s2.juancdn.com/bao/170310/0/f/58c20db7a43d1f63427015d8_750x96.jpg?iopcmd=convert&Q=88&dst=jpg",
+                "url": "",
+                "layout": "col",
+                "width": 1,
+                "height": 1,
+                "countdown": {
+                  "enable_time": "0",
+                  "start_time": "",
+                  "end_time": "",
+                  "start_text": "",
+                  "end_text": ""
+                },
+                "bd_id": "743",
+                "x_record": "7_1",
+                "activityname": "click_cube_block",
+                "server_jsonstr": "{\"pit_info\":\"ad_id::249::block_id::697::img_id::743::7_1\",\"cid\":-1,\"_t\":1498700826,\"_z\":\"5\",\"ab_info\":null}"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "block_background_color": "",
+    "block_background_image": ""
+  },
+  "banner_ads": [
+    {
+      "pic": "//s2.juancdn.com/bao/170623/1/b/594cb3baa43d1f6e634ae063_750x290.png?iopcmd=convert&Q=80&dst=png",
+      "url": "https://mact.juanpi.com/xiebao628?mjuanpi_wx=1",
+      "id": "13307",
+      "size": "750*290",
+      "title": "628开售主会场",
+      "server_jsonstr": "{\"pit_info\":\"banner::13307::1_1\",\"cid\":\"\",\"_t\":1498700826}",
+      "x_record": "1_1",
+      "activityname": "click_ad_banner"
+    },
+    {
+      "pic": "//s2.juancdn.com/bao/170627/3/c/59521039a43d1f01ba009ea2_750x290.png?iopcmd=convert&Q=80&dst=png",
+      "url": "https://m.juanpi.com/brand/1790483?shop_id=2651563",
+      "id": "13439",
+      "size": "750*290",
+      "title": "女装-梦璐伊",
+      "server_jsonstr": "{\"pit_info\":\"banner::13439::1_2\",\"cid\":\"\",\"_t\":1498700826}",
+      "x_record": "1_2",
+      "activityname": "click_ad_banner"
+    },
+    {
+      "pic": "//s2.juancdn.com/bao/170627/4/c/5952106c5a3f32aeaa505588_750x290.png?iopcmd=convert&Q=80&dst=png",
+      "url": "https://m.juanpi.com/brand/1790483?shop_id=2528415",
+      "id": "13440",
+      "size": "750*290",
+      "title": "美妆-水密码",
+      "server_jsonstr": "{\"pit_info\":\"banner::13440::1_3\",\"cid\":\"\",\"_t\":1498700826}",
+      "x_record": "1_3",
+      "activityname": "click_ad_banner"
+    },
+    {
+      "pic": "//s2.juancdn.com/bao/170627/4/e/59521097a43d1f02ad6ec8a2_750x290.png?iopcmd=convert&Q=80&dst=png",
+      "url": "https://m.juanpi.com/brand/1790483?shop_id=2557456",
+      "id": "13441",
+      "size": "750*290",
+      "title": "文体-新丽雅",
+      "server_jsonstr": "{\"pit_info\":\"banner::13441::1_4\",\"cid\":\"\",\"_t\":1498700826}",
+      "x_record": "1_4",
+      "activityname": "click_ad_banner"
+    },
+    {
+      "pic": "//s2.juancdn.com/bao/170627/9/d/59520f16a43d1f49c318df60_750x290.png?iopcmd=convert&Q=80&dst=png",
+      "url": "https://mact.juanpi.com/lanshisang?mjuanpi_wx=1",
+      "id": "13442",
+      "size": "750*290",
+      "title": "专题-鞋子-乐活凉拖",
+      "server_jsonstr": "{\"pit_info\":\"banner::13442::1_5\",\"cid\":\"\",\"_t\":1498700826}",
+      "x_record": "1_5",
+      "activityname": "click_ad_banner"
+    }
+  ],
+  "topbanner": {
+    "pic": "",
+    "pic_url": "//jp.juancdn.com/jpwebapp/images/go_load_new.png",
+    "url": "//m.juanpi.com/landing/app_1437990734"
+  },
+  "popup_ads": {
+    "start_time": "1498615200",
+    "end_time": "1498924799",
+    "filter_version": "",
+    "popup_style": 0,
+    "url": "https://mact.juanpi.com/xiebao628?mjuanpi_wx=1",
+    "pic": "//s2.juancdn.com/bao/170623/9/8/594cb591957b5235b6206d84_632x514.png?iopcmd=convert&Q=80&dst=png",
+    "id": "13308",
+    "size": "632*514",
+    "server_jsonstr": "{\"ads_id\":\"13308\",\"user_group_id\":\"\"}"
+  }
+}

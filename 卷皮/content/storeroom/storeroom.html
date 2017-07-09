@@ -1,0 +1,42 @@
+<div id="head" class="head">
+	<div class="fixtop">
+		<span id="t-index">生活仓库</span>
+		<span id='user'>
+			<a href="//m.juanpi.com/cate/index"><i class="iconfont icon-sousuo"></i></a>
+		</span>
+	</div>
+</div>
+<div class="goods-sort-scroll">
+	<div class="goods-sort-scroll-box">
+		<div class="goods-sort">
+			<div class="goods-sort-box">
+				<ul>
+					<li class="all items" ng-class="{true: 'active', false: 'inactive'}[isActive]" ng-click='changeActive()'>默认</li>
+					<li class="price items" ng-class="{true: 'activea', false: 'inactivea'}[isActivea]" ng-click='changeActivea()'>价格<span class="sort" ng-click='toggle()'><img src="img/sort_default.png" alt="" /></span></li>
+					<li class="sales items" ng-class="{true: 'activeb', false: 'inactiveb'}[isActiveb]" ng-click='changeActiveb()'>销量<span class="sort"><img src="img/sort_default.png" alt="" /></span></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="goods" id="goods">
+	<ul class="goods-list" id="goods-block">
+		<li class="data-jstype" ng-repeat="items in storeData | orderBy:orderStyle">
+			<a href="{{items.link}}" class="img-a">
+				<img src="{{items.show.img}}" alt="" />
+			</a>
+			<a href="{{items.clientUrl}}" id="click-a">
+				<div class="list-price">
+					<span class="price-new">{{items.price}}</span>
+					<i class="pintuan-icon">拼</i>
+					<i class="del">{{items.orgPrice}}</i>
+				</div>
+				<div class="long">
+					<span class="zhifa">直发</span>
+					{{items.title}}
+				</div>
+			</a>
+		</li>
+	</ul>
+</div>
+

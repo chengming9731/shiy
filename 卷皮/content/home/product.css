@@ -1,0 +1,203 @@
+.main {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: #f4f4f8;
+}
+.main .fixtop {
+    width: 100%;
+    height: 44px;
+    position: relative;
+    background: #fff;
+    border-bottom: 1px solid #dedede;
+}
+.main .fixtop .t-find {
+    padding: 10px 0 0 12px;
+    float: left;
+}
+.main .fixtop .t-find > i {
+    font-size: 24px;
+}
+.main .fixtop .t-index {
+    width: 100%;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+    padding: 0 36px;
+    font-size: 18px;
+    color: #333;
+    display: block;
+}
+.main .fixtop .icon {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 5px;
+    right: 12px;
+}
+.main .fixtop .icon > i {
+    font-size: 30px;
+}
+.main .brand {
+    width: 100%;
+    height: 95px;
+    padding: 10px;
+    background: url("../../img/bg_repeat.png");
+    background-size: 36px auto;
+}
+.main .brand .banner-box {
+    width: 100%;
+    height: 96%;
+    padding: 13px 0;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.main .brand .banner-box .logo_show {
+    width: 45px;
+    height: 45px;
+    margin-left: 14px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ebebeb;
+}
+.main .brand .banner-box .logo_show > img {
+    width: 100%;
+    vertical-align: top;
+}
+.main .brand .banner-box .brand_det {
+    width: 55%;
+    margin-left: 10px;
+    font-size: 12px;
+}
+.main .brand .banner-box .brand_det .brand_name {
+    font-size: 14px;
+    margin-bottom: 5px;
+    height: 20px;
+}
+
+.main .brand .banner-box .brand_det .brand_del {
+    opacity: .5;
+}
+
+.main .brand .banner-box .brand_collect {
+    text-align: center;
+    margin-right: 24px;
+}
+
+.main .brand_sort {
+    width: 100%;
+    background: #fff;
+    padding: 5px 0;
+    font-size: 14px;
+    text-align: center;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.main .brand_sort > ul {
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*商品介绍*/
+.goods {
+    width: 100%;
+    overflow: hidden;
+}
+
+.goods .goods-ulst {
+    width: 101%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.goods .goods-ulst > li {
+    width: 49%;
+    height: 236.75px;
+    position: relative;
+    background: #fff;
+    margin: 2.3px 2.3px 0 0;
+}
+
+.goods .goods-ulst > li:nth-child(2n) {
+    margin-right: 0;
+}
+
+.goods .goods-ulst > li > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.goods .goods-ulst > li > a .placeholder {
+    width: 100%;
+    height: 76%;
+}
+
+.goods .goods-ulst > li > a img {
+    width: 100%;
+    height: 100%;
+}
+
+.goods .goods-ulst > li > a .list-price {
+    width: 92%;
+    height: 24px;
+    margin-left: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.goods .goods-ulst > li > a .list-price .price-new {
+    font-size: 14px;
+    color: #ff464e;
+    margin-right: 4px;
+}
+
+.goods .goods-ulst > li > a .list-price .pintuan {
+    line-height: 11px;
+    padding: 2px;
+    font-size: 10px;
+    background: #ff464e;
+    color: #fff;
+    margin-right: 6px;
+}
+
+.goods .goods-ulst > li > a .list-price .del {
+    color: #bbb;
+    text-decoration: line-through;
+    font-size: 11px;
+}
+
+.goods .goods-ulst > li > a .short {
+    width: 70%;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 2px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #333;
+    margin-left: 8px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#time {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    color: #999;
+    padding:12px 0 10px 0;
+}
+#time div {
+    text-align: center;
+    width: 100%;
+    font-weight: 500;
+    font-size: 12px;
+}
+#time div:last-of-type {
+    color: #333;
+    font-weight: 700;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>卷皮</title>
+    <meta name="viewport" content="width=device-width"/>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/iconfont.css"/>
+    <link rel="stylesheet" href="js/libs/swiper-3.4.1.min.css">
+    <script src="js/libs/angular.min.js"></script>
+    <script src="js/libs/jquery.min.js"></script>
+    <script src="js/libs/angular-css.min.js"></script>
+    <script src="js/libs/angular-ui-router.js"></script>
+    <script src="js/libs/me-lazyload.js"></script>
+    <script src="app.js"></script>
+    <script src="content/home/home.js"></script>
+    <script src="content/mine/mine.js"></script>
+    <script src="content/shopcar/shopcar.js"></script>
+    <script src="content/globalshop/globalshop.js"></script>
+    <script src="content/storeroom/storeroom.js"></script>
+    <script src="js/libs/swiper-3.4.1.min.js"></script>
+    <script src="content/home/frockDetail/frockDetail.js"></script>
+    <script src="content/home/product.js"></script>
+    <script src="content/mine/login.js"></script>
+    <script src="content/mine/register.js"></script>
+    <script src="content/home/details/details.js"></script>
+    <script src="content/globalshop/hot/hot.js"></script>
+</head>
+<body>
+<div class="box" ng-app="myApp">
+
+    <div class="content" ui-view></div>
+
+    <div class="tab">
+        <ul>
+            <li ui-sref="home">
+                <img src="img/home1.png" alt=""/>
+                <p class="tab-p">今日上新</p>
+            </li>
+
+            <li ui-sref="storeroom">
+                <img src="img/zhifa0.png" alt=""/>
+                <p>直发仓</p>
+            </li>
+
+            <li ui-sref="globalshop">
+                <img src="img/eath0.png" alt=""/>
+                <p>全球购</p>
+            </li>
+
+            <li ui-sref="shopcar">
+                <img src="img/car0.png" alt=""/>
+                <p>购物车</p>
+            </li>
+
+            <li ui-sref="mine">
+                <img src="img/min0.png" alt=""/>
+                <p>我的卷皮</p>
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>

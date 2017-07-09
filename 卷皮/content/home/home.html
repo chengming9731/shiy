@@ -1,0 +1,123 @@
+<div class="box">
+    <div class="head">
+        <div class="fixtop">
+            <span class="user"><a href="//m.juanpi.com/cate/index"><i class="iconfont icon-sousuo"></i></a></span>
+            <span class="index"><img src="img/top-logo.png"></span>
+        </div>
+    </div>
+    <!--head end-->
+    <div class="top-menu">
+        <nav>
+            <a ui-sref="home">上新</a>
+            <a ui-sref=".frockDetail">女装</a>
+            <a href="" ng-click="xie()">鞋包</a>
+            <a href="">母婴</a>
+            <a href="">数码</a>
+            <a href="">居家</a>
+            <a href="">男士</a>
+            <a href="">美妆</a>
+            <a href="">美食</a>
+        </nav>
+    </div>
+    <!--top-menu end-->
+    <div class="content2" ui-view>
+        <div class="banner">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"  ng-repeat="item2 in swiperData2">
+                        <img src="{{item2.pic}}">
+                    </div>
+                </div>
+                <!-- 如果需要分页器 -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <!--banner end-->
+        <div class="module-ad">
+            <ul>
+                <li ng-repeat="item3 in swiperData3"><a href=""><img src="{{item3.pic}}"/>{{item3.words}}</a></li>
+            </ul>
+        </div>
+        <!--module-ad end-->
+        <div class="sub-type-1 clear">
+            <div class="col">
+                <a href=""><img src="{{swiperData4[0].pic}}"/></a>
+            </div>
+            <div class="row">
+                <a href=""><img src="{{swiperData4[1].pic}}"/></a>
+                <a href=""><img src="{{swiperData4[2].pic}}"/></a>
+            </div>
+        </div>
+        <!--sub-type-1 end-->
+        <div class="sub-type-2">
+            <a href="" ng-repeat="item5 in swiperData5">
+                <img src="{{item5.pic}}"/>
+            </a>
+        </div>
+        <!--sub-type-2 end-->
+        <div class="sub-type-3">
+            <a href="" ng-repeat="item6 in swiperData6">
+                <img src="{{item6.pic}}"/>
+            </a>
+        </div>
+        <!--sub-type-3 end-->
+        <div class="sub-type-4">
+            <div class="col" ng-repeat="item7 in swiperData7">
+                <a href=""><img src="{{item7.pic}}"/></a>
+            </div>
+        </div>
+        <div class="sub-type-4">
+            <div class="col" ng-repeat="item8 in swiperData8">
+                <a href=""><img src="{{item8.pic}}"/></a>
+            </div>
+        </div>
+        <!--sub-type-4 end-->
+        <div class="sub-type-3 clear">
+            <a href="" ng-repeat="item9 in swiperData9">
+                <img src="{{item9.pic}}"/>
+            </a>
+        </div>
+        <!--模块广告-->
+        <div class="goods">
+            <ul class="goods-ulst">
+                <li ng-repeat="item in swiperData"><a href="">
+                    <div class="placeholder"><img src="{{item.pic_url}}"/></div>
+                    <div class="shop_logo"><img src="{{item.shop_logo}}"/></div>
+                    <div class="list-price">
+                        <span class="coupon-info">{{item.coupon.rules[0].aeBankInfo}}</span>
+                        <span class="only-time">{{item.residue}}</span>
+                    </div>
+                    <h3 class="short">{{item.title}}</h3>
+                </a></li>
+                <!--第2部分-->
+                <li ng-repeat="item11 in swiperData11"><a href="">
+                    <div class="placeholder"><img src="{{item11.pic_url}}"/></div>
+                    <div class="shop_logo"><img src="{{item11.shop_logo}}"/></div>
+                    <div class="list-price">
+                        <span class="coupon-info">{{item11.coupon.rules[0].aeBankInfo}}</span>
+                        <span class="only-time">{{item11.residue}}</span>
+                    </div>
+                    <h3 class="short">{{item11.title}}</h3>
+                </a></li>
+                <!--第3部分-->
+                <li ng-repeat="item12 in swiperData12"><a href="">
+                    <div class="placeholder"><img src="{{item12.pic_url}}"/></div>
+                    <div class="shop_logo"><img src="{{item12.shop_logo}}"/></div>
+                    <div class="list-price">
+                        <span class="coupon-info">{{item12.coupon.rules[0].aeBankInfo}}</span>
+                        <span class="only-time">{{item12.residue}}</span>
+                    </div>
+                    <h3 class="short">{{item12.title}}</h3>
+                </a></li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+
+

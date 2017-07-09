@@ -1,0 +1,67 @@
+<!--<p>{{name}}</p>-->
+<div class="shopcar">
+    <!--头部 start-->
+    <div class="head">
+        <span class="t-index">购物车</span>
+        <span class="t-user" ng-click="user()">{{name}}</span>
+
+    </div>
+    <!--头部 end-->
+    <!--购物车 start-->
+    <div class="shopajax">
+
+        <img src="img/shopcar.png" alt="" ng-show="empty"/>
+        <p ng-show="empty">看到喜欢的就带回家吧</p>
+        <a href="#" ui-sref="home" ng-show="empty">今日上新</a>
+
+        <!--当购物车有商品的时候,呈现下面内容-->
+
+        <div class="shopfull" ng-show="isempty">
+            <div class="shoppro" ng-repeat="(key,item) in data">
+                <input type="checkbox" ng-checked="check" ng-click="check1(key)"/>
+                <div class="shoppro-right">
+                    <div class="shoppro-span">
+                        <span>{{item.title}}</span>
+                        <i class="iconfont icon-arrow"></i>
+                    </div>
+
+                    <div class="shoppro-btn" >
+                        <img src="{{item.show.img}}" alt=""/>
+                        <div class="shoppro-btn-right">
+                            <p class="clothname"><span>{{item.title}}</span><span class="shopspan">{{item.price}}</span>
+                            <p>
+                                <span ng-click="spre1(key,item)" class="span1">-</span>
+                                <span>{{item.number}}</span>
+                                <span ng-click="spre2(item)" class="span2">+</span>
+                            </p>
+
+                        </div>
+                    </div>
+                    <!--编辑状态下出现删除选项-->
+                </div>
+                <div class="remove" ng-show="removeDiv.show" ng-click="remove(key)">
+                    <img src="img/list4.png">
+                </div>
+
+            </div>
+            <!--计算总额-->
+            <div class="allprice" ng-show="isempty">
+                <div class="choose">
+                    <input type="checkbox" ng-model="check"/>
+                    <span>全选</span>
+                </div>
+                <div class="account">
+                    <span ng-show="count1">合计{{'￥'+count}}</span>
+                    <a href="#" ng-show="bookmark" class="bookmark" ng-click="bookMark(key,item)">移除收藏夹</a>
+                    <a href="#">去结算({{countNum}})</a>
+                </div>
+            </div>
+            <!--计算总额 end-->
+        </div>
+
+    </div>
+    <!--购物车 end-->
+
+
+
+</div>

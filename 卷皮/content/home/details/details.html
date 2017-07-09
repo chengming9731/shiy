@@ -1,0 +1,143 @@
+<!--主体-->
+<div class="goods-detail">
+    <!--商品图-->
+    <div class="img_show">
+        <div class="target">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="img/xq1.jpg"></div>
+                    <div class="swiper-slide"><img src="img/xq2.jpg"></div>
+                    <div class="swiper-slide"><img src="img/xq3.jpg"></div>
+                    <div class="swiper-slide"><img src="img/xq4.jpg"></div>
+                    <div class="swiper-slide"><img src="img/xq5.jpg"></div>
+                    <div class="swiper-slide"><img src="img/xq6.jpg"></div>
+                </div>
+            </div>
+            <!--图片页数-->
+            <div class="swiper-pagination item_botton"></div>
+        </div>
+    </div>
+    <!--价格栏-->
+    <div class="margin-bottom">
+        <div class="price">
+            <div>
+                <span class="groupno"><em>1.6万</em>人已团</span>
+                <span class="amount">{{item17.si_reprice}}</span>
+                <span class="price-span">{{item17.si_price}}</span>
+                <span class="baoyou">包邮</span>
+                <span class="group-price">拼团价</span>
+            </div>
+        </div>
+        <p class="name">时尚雪纺纯色短开衫</p>
+        <!--服务承诺信息-->
+        <div class="promise">
+            <div><span>24小时发货</span><span>7天包退</span><span>售后补贴</span></div>
+            <div><img src="//tuan.juancdn.com/build/img/t_dot.png"></div>
+        </div>
+    </div>
+    <!--促销-->
+    <div class="padding">
+        <div class="promotion">
+            <span class="title">促销</span>
+            <span class="tag">满赠</span>
+            <span class="info">满1元即赠69元优惠劵，数量有限，赠完即止</span>
+        </div>
+    </div>
+    <!--选择颜色-->
+    <div class="sku_select" ng-click='sku()' >
+        <span>请选择颜色、分类</span><i class="iconfont icon-202-copy"></i>
+    </div>
+    <!--品牌信息-->
+    <div class="goods-attr">
+        <ul class="attr-type">
+            <li class="{{active}}" ng-click="error()">商品信息</li>
+            <li class="{{active1}}" ng-click="error1()">商品参数</li>
+            <li class="{{active2}}" ng-click="error2()">咨询与售后</li>
+        </ul>
+        <div class="shop_info">
+            <span class="tips">商家提醒：</span>此商品由品牌商从<em>【广东广州】</em>通过<em>【天天快递】</em>发货。
+        </div>
+        <p class="quality-bar">该商品已通过卷皮人工质检，品质有保证</p>
+        <div class="goods-imgs">
+            <img src="img/mot1.jpg">
+            <img src="img/mot2.jpg">
+            <img src="img/mot3.jpg">
+            <img src="img/mot4.jpg">
+            <img src="img/mot5.jpg">
+            <img src="img/mot6.jpg">
+            <img src="img/mot7.jpg">
+            <img src="img/mot8.jpg">
+            <img src="img/mot9.jpg">
+            <img src="img/mot10.jpg">
+            <img src="img/mot11.jpg">
+            <img src="img/mot12.jpg">
+            <img src="img/mot13.jpg">
+            <img src="img/mot14.jpg">
+            <img src="img/mot15.jpg">
+            <img src="img/mot16.jpg">
+            <img src="img/mot17.jpg">
+            <img src="img/mot18.jpg">
+            <img src="img/mot19.jpg">
+            <img src="img/mot20.jpg">
+            <img src="img/mot21.jpg">
+            <img src="img/mot22.jpg">
+        </div>
+    </div>
+    <!--底部商标-->
+    <div class="wx_foot">
+        <img src="//tuan.juancdn.com/build/img/jp01_logo_ai.png">
+    </div>
+</div>
+<div ng-show='sku_mask' class="sku_mask">
+    <div class="{{sku_list}} ng-bi">
+        <span class="closed" ng-click="headn()">×</span>
+        <div class="container">
+            <div class="heads">
+                <img src="img/xq1.jpg">
+                <div class="info">
+                    <span class="jg">29.90</span>
+                    <p class="prop">请选择 颜色 尺码</p>
+                </div>
+            </div>
+            <div class="type-list">
+                <!--<div class="normal">-->
+                    <!--<span>颜色</span>-->
+                    <!--<ul>-->
+                        <!--<li>m</li>-->
+                        <!--<li></li>-->
+                        <!--<li></li>-->
+                        <!--<li></li>-->
+                        <!--<li></li>-->
+                        <!--<li></li>-->
+                    <!--</ul>-->
+                <!--</div>-->
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

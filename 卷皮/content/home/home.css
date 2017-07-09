@@ -1,0 +1,260 @@
+.box{
+    width: 100%;
+    overflow: auto;
+    background: #f4f4f8;
+}
+.head{
+    width: 100%;
+    height: 44px;
+    background: #fff;
+    border-bottom: 1px solid #dedede;
+}
+.head .fixtop{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.head .fixtop .index{
+    display: block;
+    width: 80%;
+    height: 100%;
+    text-align: center;
+}
+.head .fixtop .index>img{
+    height: 24px;
+    margin-top: 10px;
+}
+.head .fixtop .user{
+    padding-top: 10px;
+    padding-right: 12px;
+}
+.head .fixtop .user a{
+    display: inline-block;
+    overflow: hidden;
+    text-decoration: none;
+    height: 24px;
+    width: 24px;
+}
+.head .fixtop .user a>i{
+    font-size: 24px;
+}
+/*head end*/
+.top-menu{
+    width: 100%;
+    height: 38px;
+    background: #fff;
+}
+.top-menu>nav{
+    height: 100%;
+    white-space: nowrap;
+    overflow: auto;
+}
+.top-menu>nav>a{
+    height: 38px;
+    line-height: 38px;
+    display: inline-block;
+    font-size: 14px;
+    text-align: center;
+    white-space: nowrap;
+    margin: 0 9.25px;
+    padding: 0 5.63px;
+}
+/*top-menu end*/
+.banner{
+    width: 100%;
+    height: 136px;
+    background: #fff;
+}
+.banner img{
+    height: 100%;
+    width: 100%;
+}
+/*banner end*/
+.module-ad{
+    width: 100%;
+    height: 85px;
+    background: #fff;
+}
+.module-ad>ul>li{
+    width: 25%;
+    float: left;
+    text-align: center;
+    font-size: 12px;
+    padding: 11px 0;
+}
+.module-ad>ul>li>a{
+    color: #666;
+}
+.module-ad>ul>li>a>img{
+    width: 40px;
+    margin: 0 auto 6px;
+    display: block;
+}
+/*module-ad end*/
+.sub-type-1{
+    width: 100%;
+    height: 218.88px;
+    background: #fff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+.sub-type-1>div{
+    width: 50%;
+    height: 100%;
+}
+.sub-type-1>div>a{
+    vertical-align: middle;
+    display: inline-block;
+}
+.sub-type-1 .col{
+    border-right: 1px solid #cbcbcb;
+}
+.sub-type-1 .col>a{
+    height: 100%;
+    width: 100%;
+}
+.sub-type-1 .row>a{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid #ebebeb;
+}
+.sub-type-1 .row a:first-child{
+    border-top: none;
+}
+.sub-type-1>div>a>img{
+    width: 100%;
+    height: 100%;
+}
+/*sub-type-1 end*/
+.sub-type-2{
+    width: 100%;
+    height: 109.44px;
+    background: #fff;
+}
+.sub-type-2>a{
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+}
+.sub-type-2>a>img{
+    width: 100%;
+    height: 100%;
+}
+/*.sub-type-2 end*/
+.sub-type-3{
+    width: 100%;
+    height: 47.988px;
+}
+.sub-type-3>a{
+     height: 100%;
+     width: 100%;
+     display: inline-block;
+ }
+.sub-type-3>a>img{
+    width: 100%;
+    height: 100%;
+}
+/*.sub-type-3 end*/
+.sub-type-4{
+    width: 100%;
+    height: 117px;
+}
+.sub-type-4 .col{
+    width: 50%;
+    height: 100%;
+    float: left;
+    display: inline-block;
+}
+.sub-type-4 .col>a{
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+}
+.sub-type-4 .col>a>img{
+    width: 100%;
+    height: 100%;
+}
+/*sub-type-4 end*/
+.clear{
+    margin-top:11.25px;
+}
+/*模块广告*/
+.goods{
+    width: 100%;
+    overflow: hidden;
+}
+.goods .goods-ulst{
+    width: 101%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.goods .goods-ulst>li{
+    width: 49%;
+    height: 236.75px;
+    position: relative;
+    background: #fff;
+    margin: 2.3px 2.3px 0 0;
+}
+.goods .goods-ulst>li>a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.goods .goods-ulst>li>a .placeholder{
+    width: 100%;
+    height: 76%;
+}
+.goods .goods-ulst>li>a img{
+    width: 100%;
+    height: 100%;
+}
+.goods .goods-ulst>li>a .shop_logo{
+    position: absolute;
+    bottom: 45px;
+    right: 9px;
+    width: 58px;
+    height: 30px;
+    border: 1px solid #ebebeb;
+    background: #fff;
+}
+.disp_logo{
+    display: none;
+}
+.goods .goods-ulst>li>a .list-price{
+    width: 92%;
+    height: 24px;
+    position: relative;
+    margin-left: 8px;
+    line-height: 24px;
+}
+.goods .goods-ulst>li>a .list-price .coupon-info{
+    position: absolute;
+    bottom:0;
+    font-size: 13px;
+    color: #ff464e;
+    width: 63%;
+    display: inline-block;
+}
+.goods .goods-ulst>li>a .list-price .only-time{
+    bottom:-18px;
+    position: absolute;
+    color: #bbb;
+    font-size: 11px;
+    text-align: right;
+    right: 0;
+}
+.goods .goods-ulst>li>a .short{
+    width: 70%;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 2px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #333;
+    margin-left: 8px;
+    overflow: hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+}
